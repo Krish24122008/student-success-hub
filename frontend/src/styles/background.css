@@ -1,0 +1,18 @@
+/* ===== Attractive page background: soft image on top, doodle pattern, colour glows, footer wave ===== */
+html{background:var(--bg) url(/images/patterns/bg-top.svg) no-repeat top center;background-size:max(100%,1500px) auto}
+body{background:transparent;position:relative}
+body::before{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;
+  background:
+    radial-gradient(520px 360px at 100% 55%,rgba(255,200,61,.14),transparent 70%),
+    radial-gradient(560px 380px at 0% 85%,rgba(138,108,255,.14),transparent 70%),
+    url(/images/patterns/doodles.svg);
+  background-size:auto,auto,400px 400px}
+@media(max-width:640px){body::before{background-size:auto,auto,300px 300px}}
+
+/* wave above the dark footer */
+.ftr{position:relative;margin-top:84px}
+.ftr::before{content:"";position:absolute;left:0;right:0;top:-39px;height:40px;background:url(/images/patterns/wave.svg) bottom/100% 100% no-repeat}
+
+/* big sections feel lighter on the pattern */
+.cta{background:rgba(255,255,255,.96)}
+@media print{html{background:#fff}body::before{display:none}}

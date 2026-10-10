@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="400" viewBox="0 0 400 400">
+<g fill="none" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+<!-- graduation cap -->
+<g transform="translate(60 62) rotate(-8)" stroke="#5A4BDA" stroke-opacity=".12"><path d="M0 -12 L26 -2 L0 8 L-26 -2Z"/><path d="M-14 4 v10 q14 8 28 0 v-10"/><path d="M26 -2 v14"/></g>
+<!-- open book -->
+<g transform="translate(212 52) rotate(6)" stroke="#1F8A7A" stroke-opacity=".13"><path d="M0 -10 q-13 -7 -24 -2 v24 q11 -5 24 2 q13 -7 24 -2 v-24 q-11 -5 -24 2z"/><path d="M0 -10 v26"/></g>
+<!-- star -->
+<g transform="translate(342 88) rotate(10)" stroke="#f5a400" stroke-opacity=".2"><path d="M0 -16 l4.600 10 l11 1.200 l-8.200 7.400 l2.300 10.800 l-9.700 -5.500 l-9.700 5.500 l2.300 -10.800 l-8.200 -7.400 l11 -1.200z"/></g>
+<!-- light bulb -->
+<g transform="translate(118 172) rotate(8)" stroke="#f5a400" stroke-opacity=".2"><path d="M0 -18 a13 13 0 0 1 8 23 v5 h-16 v-5 a13 13 0 0 1 8 -23z"/><path d="M-6 17 h12 M-4 22 h8"/></g>
+<!-- rocket -->
+<g transform="translate(272 190) rotate(32)" stroke="#5A4BDA" stroke-opacity=".12"><path d="M0 -22 q12 12 9 28 h-18 q-3 -16 9 -28z"/><circle cx="0" cy="-6" r="3.500"/><path d="M-9 4 l-8 9 l8 -3 M9 4 l8 9 l-8 -3"/><path d="M0 12 v8"/></g>
+<!-- pencil -->
+<g transform="translate(58 304) rotate(-20)" stroke="#1F8A7A" stroke-opacity=".13"><path d="M-16 16 l2.500 -10 l19 -19 l7.500 7.500 l-19 19z"/><path d="M3 -8 l7.500 7.500"/></g>
+<!-- briefcase -->
+<g transform="translate(190 322) rotate(4)" stroke="#5A4BDA" stroke-opacity=".12"><rect x="-18" y="-9" width="36" height="24" rx="5"/><path d="M-7 -9 v-5 h14 v5 M-18 3 h36"/></g>
+<!-- small star -->
+<g transform="translate(340 312) rotate(-12) scale(.7)" stroke="#f5a400" stroke-opacity=".2"><path d="M0 -16 l4.600 10 l11 1.200 l-8.200 7.400 l2.300 10.800 l-9.700 -5.500 l-9.700 5.500 l2.300 -10.800 l-8.200 -7.400 l11 -1.200z"/></g>
+<!-- plus signs -->
+<g stroke="#5A4BDA" stroke-opacity=".14"><path d="M150 100 h12 M156 94 v12"/><path d="M320 240 h12 M326 234 v12"/><path d="M26 196 h10 M31 191 v10"/><path d="M262 372 h10 M267 367 v10"/></g>
+</g>
+<g fill="#5A4BDA" fill-opacity=".12"><circle cx="300" cy="140" r="3"/><circle cx="150" cy="250" r="3"/><circle cx="20" cy="120" r="2.500"/><circle cx="380" cy="230" r="2.500"/><circle cx="110" cy="380" r="3"/><circle cx="240" cy="270" r="2.500"/></g>
+<g fill="#f5a400" fill-opacity=".2"><circle cx="190" cy="130" r="3"/><circle cx="370" cy="170" r="2.500"/><circle cx="30" cy="370" r="3"/></g>
+</svg>
